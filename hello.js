@@ -13,3 +13,16 @@ function sayHola (name) {
 }
 
 sayHola("Amo");
+
+
+//Return vs Console.log (print)
+const sayHelloToConsole = function(name) {
+  console.log("Hello " + name);
+}
+sayHelloToConsole('John');
+
+const returnSayHello = function(name) {
+  return "Hello " + name;
+}
+let greeting = returnSayHello('Johnny')
+// console.log(greeting)
